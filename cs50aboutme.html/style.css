@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(80.15deg, #d2a18f 12.62%, #6d3d21 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background:  #6d3d21 85.61%;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 6rem;
+    text-decoration: none;
+    font-size: 1,15rem;
+    color:black;
+}
+
+.list-menu ul {
+    display: inline;
+}
+
+.item-menu {
+    display: inline;
+    flex-direction: row;
+    margin: 0 15px;
+    list-style: none;
+    font-family: 'DM Serif Display', serif;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1,15rem;
+    color:aliceblue;
+    
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pages-text {
+    font-family: 'DM Serif Display', serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.title {
+    margin-bottom: 150px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+.subtitle {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 200;
+}
+
+
+.sections-titles {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 200;
+}
+
+.text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-stretch: ultra-condensed; 
+}
+
+.footer {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 300;
+    margin-top: 90px;
+}
